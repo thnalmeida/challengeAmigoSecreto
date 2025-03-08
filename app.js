@@ -16,6 +16,11 @@ function adicionarAmigo(){
     } else{
         listaAmigos.push(nomeAmigo); //para adicionar o nome digitado do amigo na lista de amigos
         console.log(listaAmigos);
+        limparCampo();
     }
 }
 
+function limparCampo() {
+    nomeAmigo = document.querySelector('input');
+    nomeAmigo.value = '';
+}
