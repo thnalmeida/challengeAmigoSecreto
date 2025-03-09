@@ -33,6 +33,19 @@ function atualizarLista(){
     exibirTextoNaTela('h1', listaAmigos);
 }
 
+function atualizarListaAmigos(amigos) {
+    //Seleciona o elemento da lista
+    const listaAmigos = document.getElementById("lista-amigos");
+    //Limpa a lista existente
+    listaAmigos.innerHTML = "";
+    // Percorre o array de amigos e cria elementos <li>
+    for (let amigo of listaAmigos) {
+        const item = document.createElement("li"); // Cria um elemento <li>
+        item.textContent = amigo; // Define o texto como o nome do amigo
+        listaAmigos.appendChild(item); // Adiciona o <li> à lista
+    }
+}
+
 //Escreva uma função que selecione aleatoriamente um dos nomes armazenados no array amigos.
 // Use Math.random() e Math.floor() para obter um índice aleatório.
 function sortearAmigo(){
@@ -47,6 +60,5 @@ function sortearAmigo(){
     }
     //Mostrar o resultado: Atualizar o conteúdo do elemento de resultado usando document.getElementById() e innerHTML para exibir o amigo sorteado.
     exibirTextoNaTela('h1', `O seu amigo secreto é: ${amigoSorteado}`)
-
 
 }
