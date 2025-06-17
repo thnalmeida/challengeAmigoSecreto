@@ -6,3 +6,5 @@ As funcionalidades para que esse sorteio seja possível é:
 - Inserção do nome dos amigos pelo usuário;
 - Atualização da lista de amigos;
 - Sorteio do amigo. 
+
+Você pode acessar o deploy no site: https://challenge-amigo-secreto-six-pi.vercel.app/ 
