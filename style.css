@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Gabriel Weiss Friends';
+    src: url('G:\Meu Drive\DOCUMENTOS - NOTEBOOK\CURSOS 2025\challengeAmigoSecreto') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
 :root {
     --color-primary: #a34383;
     --color-secondary: #FFF9EB;
@@ -55,7 +65,7 @@ body {
 /*Títulos*/
 .main-title {
     font-size: 48px;
-    font-family: "Friends Font", serif;
+    font-family: "Gabriel Weiss' Friends", serif;
     font-weight: 900;
     font-style: italic;
     color: #ffff00;
