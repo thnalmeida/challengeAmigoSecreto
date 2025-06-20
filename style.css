@@ -1,12 +1,10 @@
+/*para adicionar fonte da série friends*/
 @font-face {
-    font-family: 'Gabriel Weiss Friends';
-    src: url('G:\Meu Drive\DOCUMENTOS - NOTEBOOK\CURSOS 2025\challengeAmigoSecreto') format('truetype');
+    font-family: 'friendsFont';
+    src: url('./fonts/GABRWFFR.TTF') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-
-
-
 
 :root {
     --color-primary: #a34383;
@@ -65,7 +63,7 @@ body {
 /*Títulos*/
 .main-title {
     font-size: 48px;
-    font-family: "Gabriel Weiss' Friends", serif;
+    font-family: "FriendsFont", serif;
     font-weight: 900;
     font-style: italic;
     color: #ffff00;
